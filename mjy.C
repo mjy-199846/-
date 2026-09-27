@@ -9,10 +9,12 @@ int main(void)
     i = 0;
     while(i<10)
     {
+      if(arr[i]>3 && arr[i]<7)
+    {
       sum = sum + arr[i]; 
-      i++; 
     }
-   
+      i++;
+    }
     printf("1到10的和为 = %d",sum);
     return 0;
 }
