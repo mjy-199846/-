@@ -1,3 +1,4 @@
+//while循环实现1~10累加求和
 #include <stdio.h>
 int main(void)
 {
